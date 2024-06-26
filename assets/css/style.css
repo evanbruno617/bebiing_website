@@ -980,10 +980,13 @@ section {
   background-color: #13084f;
 }
 
+.portfolio #portfolio-flters {
+  overflow-x: auto;
+}
+
 .portfolio #portfolio-flters li {
   cursor: pointer;
   display: inline-block;
-  overflow-x: auto;
   margin: 10px 5px;
   font-size: 15px;
   font-weight: 500;
